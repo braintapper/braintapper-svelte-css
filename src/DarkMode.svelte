@@ -1,15 +1,16 @@
-<style global lang="sass">
+<style global>
 
-  \:root
+:root {
 
-    --background-light: var(--white)
-    --background-dark: var(--black)
-    --foreground-light: var(--black)
-    --foreground-dark: var(--lightest-gray)
+    --background-light: var(--white);
+    --background-dark: var(--black);
+    --foreground-light: var(--black);
+    --foreground-dark: var(--lightest-gray);
+}
+  /* general overrides */
+@media (prefers-color-scheme: dark) {
+  a, a:hover, a:visited, a:active {
+    color: var(--foreground-dark); } }
 
-  // general overrids
-  @media (prefers-color-scheme: dark)
-    a, a:hover, a:visited, a:active
-      color: var(--foreground-dark)
 
 </style>
