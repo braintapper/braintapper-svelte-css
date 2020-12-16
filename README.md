@@ -1,4 +1,4 @@
-# braintapper-svelte-componentname
+# braintapper-svelte-css
 
 Brief description here
 
@@ -10,7 +10,7 @@ Brief description here
 Import the components you need in your <script> tag:
 
 ```
-  import Indent from "braintapper-svelte-componentname";
+  import Indent from "braintapper-svelte-css";
 ```
 
 ## Example Markup
