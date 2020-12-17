@@ -147,4 +147,3 @@
   }
 
 </style>
-<div stub="CssColors"></div>
