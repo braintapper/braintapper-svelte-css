@@ -1,6 +1,6 @@
 # braintapper-svelte-css
 
-Brief description here
+This is a work in progress. Docs will be written when it's working.
 
 
 # Usage

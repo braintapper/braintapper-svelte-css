@@ -1,6 +1,6 @@
 <style global>
 
-  :root {
+  :global(:root) {
 
     --font-family-primary: Hind;
     --font-family-primary-bold: Hind;
@@ -20,22 +20,22 @@
 }
 
 
-@font-face {
+:global(@font-face) {
   font-family: Hind;
   src: url("./fonts/Hind-Regular.ttf");
   font-weight: normal; }
 
-@font-face {
+:global(@font-face) {
   font-family: Hind;
   src: url("./fonts/Hind-SemiBold.ttf");
   font-weight: bold; }
 
-@font-face {
+:global(@font-face) {
   font-family: Cascadia;
   src: url("./fonts/Cascadia.ttf");
   font-weight: normal; }
 
-@font-face {
+:global(@font-face) {
   font-family: Cascadia;
   src: url("./fonts/Cascadia.ttf");
   font-weight: bold; }

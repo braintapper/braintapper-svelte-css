@@ -1,6 +1,6 @@
-<style global>
+<style>
 
-  :root {
+  :global(:root) {
 
     --lightest-gray: #dee2e6;
     --lighter-gray: #ced4da;
@@ -147,3 +147,4 @@
   }
 
 </style>
+<div stub="CssColors"></div>

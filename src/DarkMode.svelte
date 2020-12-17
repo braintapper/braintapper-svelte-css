@@ -1,6 +1,6 @@
-<style global>
+<style>
 
-:root {
+:global(:root) {
 
     --background-light: var(--white);
     --background-dark: var(--black);

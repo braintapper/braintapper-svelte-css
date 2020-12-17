@@ -1,5 +1,5 @@
-<style global>
-* {
+<style>
+:global(*) {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -7,60 +7,63 @@
   font-weight: inherit;
   border-radius: 0px; }
 
-*:focus {
+:global(*:focus) {
   outline: none;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px inset; }
 
-div {
+:global(div) {
   position: relative; }
 
-button, input[type="button"], input {
+:global(button), :global(input[type="button"]), :global(input) {
   border: none;
   background: transparent;
   font-family: var(--font-family-primary); }
-  button:focus, input[type="button"]:focus, input:focus {
+
+  :global(button:focus), :global(input[type="button"]:focus), :global(input:focus) {
     outline: none; }
 
-a, a > em {
+:global(a), :global(a > em) {
   text-decoration: none; }
 
-a > em {
+:global(a > em) {
   font-style: normal; }
 
-a:hover > em {
+:global(a:hover > em) {
   text-decoration: underline; }
 
-a, a:hover, a:visited, a:active {
+:global(a), :global(a:hover), :global(a:visited), :global(a:active) {
   color: var(--black); }
 
-html, body {
+:global(html), :global(body) {
   min-width: var(--breakpoint-min);
   width: 100%;
   height: 100%; }
 
-ul, ol {
+:global(ul), :global(ol) {
   list-style-type: none; }
 
-ul[unstyled], ol[unstyled] {
+:global(ul[unstyled]), :global(ol[unstyled]) {
   list-style-type: none !important; }
-  ul[unstyled] li, ol[unstyled] li {
+
+  :global(ul[unstyled] li), :global(ol[unstyled] li) {
     margin-left: 0px !important; }
 
-table {
+:global(table) {
   border-spacing: 0;
   border-collapse: collapse; }
-  table td, table th {
+
+  :global(table td), :global(table th) {
     vertical-align: top; }
 
-details summary::-webkit-details-marker {
+:global(details summary::-webkit-details-marker) {
   display: none;
   font-size: 0px; }
 
-a, b, i, strong, em {
+:global(a), :global(b), :global(i), :global(strong), :global(em) {
   font-weight: inherit;
   text-decoration: inherit; }
 
-hr {
+:global(hr) {
   border-top: 1px solid var(--lightest-gray); }
 
 

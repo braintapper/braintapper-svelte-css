@@ -1,42 +1,43 @@
-<style global>
-body {
+<style>
+
+:global(body) {
   font-family: var(--font-family-primary), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--font-s); }
 
-h1, h2, h3, h4, h5, h6 {
+:global(h1, h2, h3, h4, h5, h6) {
   font-weight: var(--font-bold); }
 
-h1 {
+:global(h1) {
   font-size: var(--font-xxl); }
 
-h2 {
+:global(h2) {
   font-size: var(--font-xl); }
 
-h3 {
+:global(h3) {
   font-size: var(--font-l); }
 
-h4 {
+:global(h4) {
   font-size: var(--font-m); }
 
-h5 {
+:global(h5) {
   font-size: var(--font-s); }
 
-h6 {
+:global(h6) {
   font-size: var(--font-xs); }
 
-p {
+:global(p) {
   font-size: var(--font-s); }
 
-small {
+:global(small) {
   font-size: var(--font-xs); }
 
-pre, code {
+:global(pre), :global(code) {
   font-family: var(--font-family-monospace), "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
 
-pre {
+:global(pre) {
   font-size: var(--font-s); }
 
-b {
+:global(b) {
   font-weight: var(--font-bold); }
 
 [type="content"] h1, .content h1, [content] h1 {

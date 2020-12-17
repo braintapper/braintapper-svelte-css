@@ -1,6 +1,6 @@
-<style global>
+<style>
 
-  :root {
+  :global(:root) {
 
     --text-spacing-xxl: 28px;
     --text-spacing-xl: 24px;
