@@ -1,4 +1,4 @@
-<style global>
+<style>
 
   :global(:root) {
 
@@ -22,22 +22,22 @@
 
 :global(@font-face) {
   font-family: Hind;
-  src: url("./fonts/Hind-Regular.ttf");
+  src: url("/fonts/Hind-Regular.ttf");
   font-weight: normal; }
 
 :global(@font-face) {
   font-family: Hind;
-  src: url("./fonts/Hind-SemiBold.ttf");
+  src: url("/fonts/Hind-SemiBold.ttf");
   font-weight: bold; }
 
 :global(@font-face) {
   font-family: Cascadia;
-  src: url("./fonts/Cascadia.ttf");
+  src: url("/fonts/Cascadia.ttf");
   font-weight: normal; }
 
 :global(@font-face) {
   font-family: Cascadia;
-  src: url("./fonts/Cascadia.ttf");
+  src: url("/fonts/Cascadia.ttf");
   font-weight: bold; }
 
 </style>
