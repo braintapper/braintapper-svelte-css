@@ -44,7 +44,7 @@
   margin-top: var(--text-spacing-xxl);
   margin-bottom: var(--text-spacing-xxl); }
 
-:global([type="content"] h2, :global(.content h2), :global([content] h2) {
+:global([type="content"] h2), :global(.content h2), :global([content] h2) {
   margin-top: var(--text-spacing-xxl);
   margin-bottom: var(--text-spacing-xl); }
 
