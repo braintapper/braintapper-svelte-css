@@ -50,7 +50,7 @@
 
 :global([type="content"] h3),
    :global(.content h3),
-   :global([content] h3) ){
+   :global([content] h3) {
   margin-top: var(--text-spacing-xxl);
   margin-bottom: var(--text-spacing-l); }
 
