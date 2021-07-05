@@ -4,7 +4,7 @@
   font-family: var(--font-family-primary), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--font-s); }
 
-:global(h1, h2, h3, h4, h5, h6) {
+:global(h1), :global(h2), :global(h3), :global(h4), :global(h5), :global(h6) {
   font-weight: var(--font-bold); }
 
 :global(h1) {
