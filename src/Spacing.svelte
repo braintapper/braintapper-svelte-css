@@ -1,6 +1,6 @@
 <style>
 
-  :global(:root) {
+  :global(body) {
 
     --text-spacing-xxl: 28px;
     --text-spacing-xl: 24px;

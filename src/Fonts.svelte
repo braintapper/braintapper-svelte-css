@@ -1,6 +1,6 @@
 <style>
 
-  :global(:root) {
+  :global(body) {
 
     --font-family-primary: Hind;
     --font-family-primary-bold: Hind;

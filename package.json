@@ -1,6 +1,6 @@
 {
   "name": "braintapper-svelte-css",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Svelte component for common CSS for Braintapper applications",
   "author": "braintapper",
   "license": "MIT",

@@ -1,6 +1,6 @@
 <style>
 
-  :global(:root) {
+  :global(body) {
 
     --lightest-gray: #dee2e6;
     --lighter-gray: #ced4da;
