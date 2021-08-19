@@ -54,6 +54,12 @@
     --black: var(--darkest-gray);
     --white: #ffffff;
 
+
+    /* tag color defaults */
+    --hyperlink: var(--blue);
+    --hr: var(--lightest-gray);
+
+
     /* light and dark mode */
     --background-light: var(--white);
     --background-dark: var(--black);
